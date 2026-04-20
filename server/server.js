@@ -18,16 +18,18 @@ const app = express();
 const server = http.createServer(app);
 
 // Set up Socket.io on our server
-// cors: "*" means any frontend can connect (fine for development)
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: process.env.CLIENT_URL || "*",
+    methods: ["GET", "POST"],
   },
 });
 
 // ---- MIDDLEWARE ----
-// cors() allows our React frontend (running on port 5173) to talk to this server
-app.use(cors());
+app.use(cors({
+  origin: process.env.CLIENT_URL || "*",
+  credentials: true,
+}));
 
 // express.json() lets us read JSON data that frontend sends us
 app.use(express.json());
