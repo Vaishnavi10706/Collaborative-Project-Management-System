@@ -26,7 +26,7 @@ import StatsBar from "../components/StatsBar";
 import { FiPlus, FiArrowLeft, FiUserPlus, FiFilter } from "react-icons/fi";
 
 // Connect to Socket.io server for real-time updates
-const socket = io("http://localhost:5000");
+const socket = io(import.meta.env.VITE_SOCKET_URL || "http://localhost:5000");
 
 // The 3 columns of our Kanban board
 const COLUMNS = [
