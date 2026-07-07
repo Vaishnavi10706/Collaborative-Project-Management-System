@@ -156,7 +156,7 @@ npm run dev
 ## Environment Variables
 
 ### Backend (server/.env)
-
+```
 PORT=5000
 
 MONGO_URI=your_mongodb_connection
@@ -164,11 +164,11 @@ MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
 
 CLIENT_URL=http://localhost:5173
-
+```
 ### Frontend (client/.env)
-
+```
 VITE_SOCKET_URL=http://localhost:5000
-
+```
 ## How It Works
 
 User signs up / logs in (JWT authentication)
@@ -216,6 +216,6 @@ Deployed frontend using Vercel
 Vaishnavi
 GitHub: https://github.com/Vaishnavi10706
 
-⭐ Support
+## Support
 
 If you like this project, give it a ⭐ on GitHub!
