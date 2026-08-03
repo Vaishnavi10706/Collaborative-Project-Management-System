@@ -9,45 +9,45 @@ Built with React (Vite) + Node.js + MongoDB + Socket.io, this system ensures eff
 
 Traditional team collaboration suffers from:
 
-Lack of real-time updates
+- Lack of real-time updates
 
-Poor task visibility
+- Poor task visibility
 
-Inefficient communication
+- Inefficient communication
 
 This project solves these issues by providing a real-time, centralized collaboration platform.
 
 ## Key Features
 
-Authentication & Security
+1. Authentication & Security
 
-JWT-based authentication
+- JWT-based authentication
 
-Secure API routes using middleware
+- Secure API routes using middleware
 
-Project Management
+2. Project Management
 
-Create & manage projects
+- Create & manage projects
 
-Add multiple team members
+- Add multiple team members
 
-Task Management
+3. Task Management
 
-Assign tasks to users
+- Assign tasks to users
 
-Track task status (Pending / In Progress / Completed)
+- Track task status (Pending / In Progress / Completed)
 
-Real-Time Collaboration
+4. Real-Time Collaboration
 
-Live updates using Socket.io
+- Live updates using Socket.io
 
-Instant synchronization across users
+- Instant synchronization across users
 
-Activity Tracking
+5. Activity Tracking
 
-Activity logs for project actions
+- Activity logs for project actions
 
-Track user actions for transparency
+- Track user actions for transparency
 
 ## Tech Stack
 
@@ -171,15 +171,15 @@ VITE_SOCKET_URL=http://localhost:5000
 ```
 ## How It Works
 
-User signs up / logs in (JWT authentication)
+- User signs up / logs in (JWT authentication)
 
-Creates or joins a project
+- Creates or joins a project
 
-Assigns tasks to team members
+- Assigns tasks to team members
 
-Updates are broadcast in real-time via Socket.io
+- Updates are broadcast in real-time via Socket.io
 
-Activities are logged for tracking
+- Activities are logged for tracking
 
 ## Deployment
 
@@ -189,27 +189,27 @@ Backend → Can be deployed on Railway
 
 ## Future Improvements
 
-Real-time notifications system
+- Real-time notifications system
 
-Mobile responsive UI
+- Mobile responsive UI
 
-Analytics dashboard for project insights
+- Analytics dashboard for project insights
 
-Role-based access control (Admin / Member)
+- Role-based access control (Admin / Member)
 
-AI-based task recommendations
+- AI-based task recommendations
 
 ## Key Learnings
 
-Built a scalable real-time full-stack system
+- Built a scalable real-time full-stack system
 
-Implemented JWT authentication & secure APIs
+- Implemented JWT authentication & secure APIs
 
-Integrated Socket.io for live collaboration
+- Integrated Socket.io for live collaboration
 
-Designed modular backend architecture (MVC pattern)
+- Designed modular backend architecture (MVC pattern)
 
-Deployed frontend using Vercel
+- Deployed frontend using Vercel
 
 ## Contact
 
