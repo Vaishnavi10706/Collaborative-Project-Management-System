@@ -53,31 +53,31 @@ This project solves these issues by providing a real-time, centralized collabora
 
 ### Frontend
 
-React.js (Vite)
+- React.js (Vite)
 
-Javascript
+- Javascript
 
-HTML, CSS, JavaScript
+- HTML, CSS, JavaScript
 
 ### Backend
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-Socket.io
+- Socket.io
 
 ### Database
 
-MongoDB (Mongoose)
+- MongoDB (Mongoose)
 
 ### Other Tools
 
-JWT Authentication
+- JWT Authentication
 
-Git & GitHub
+- Git & GitHub
 
-Vercel (Frontend Deployment)
+- Vercel (Frontend Deployment)
 
 ## Project Structure
 ```
@@ -214,6 +214,7 @@ Backend → Can be deployed on Railway
 ## Contact
 
 Vaishnavi
+
 GitHub: https://github.com/Vaishnavi10706
 
 ## Support
