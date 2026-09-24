@@ -132,21 +132,21 @@ Activity log routes
 
 ## Installation & Setup
 
-1️⃣ Clone Repository
+1️. Clone Repository
 ```
 git clone https://github.com/Vaishnavi10706/Collaborative-Project-Management-System.git
 
 cd Collaborative-Project-Management-System
 ```
 
-2️⃣ Setup Backend
+2️. Setup Backend
 ```
 cd server
 npm install
 npm start
 ```
 
-3️⃣ Setup Frontend
+3️. Setup Frontend
 ```
 cd client
 npm install
