@@ -1,7 +1,7 @@
 # Collaborative Project Management System
 ## Project Overview
 
-A full-stack Collaborative Project Management System that enables teams to manage projects, assign tasks, and collaborate in real-time.
+A full stack Collaborative Project Management System that enables teams to manage projects, assign tasks, and collaborate in real time.
 
 Built with React (Vite) + Node.js + MongoDB + Socket.io, this system ensures efficient workflow management with live updates and secure authentication.
 
@@ -9,19 +9,19 @@ Built with React (Vite) + Node.js + MongoDB + Socket.io, this system ensures eff
 
 Traditional team collaboration suffers from:
 
-- Lack of real-time updates
+- Lack of real time updates
 
 - Poor task visibility
 
 - Inefficient communication
 
-This project solves these issues by providing a real-time, centralized collaboration platform.
+This project solves these issues by providing a real time, centralized collaboration platform.
 
 ## Key Features
 
 1. Authentication & Security
 
-- JWT-based authentication
+- JWT based authentication
 
 - Secure API routes using middleware
 
@@ -177,7 +177,7 @@ VITE_SOCKET_URL=http://localhost:5000
 
 - Assigns tasks to team members
 
-- Updates are broadcast in real-time via Socket.io
+- Updates are broadcast in real time via Socket.io
 
 - Activities are logged for tracking
 
@@ -195,13 +195,13 @@ Backend → Can be deployed on Railway
 
 - Analytics dashboard for project insights
 
-- Role-based access control (Admin / Member)
+- Role based access control (Admin / Member)
 
-- AI-based task recommendations
+- AI based task recommendations
 
 ## Key Learnings
 
-- Built a scalable real-time full-stack system
+- Built a scalable real-time full stack system
 
 - Implemented JWT authentication & secure APIs
 
@@ -213,7 +213,7 @@ Backend → Can be deployed on Railway
 
 ## Contact
 
-Vaishnavi
+**Vaishnavi**
 
 GitHub: https://github.com/Vaishnavi10706
 
