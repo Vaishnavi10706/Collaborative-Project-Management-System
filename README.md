@@ -10,9 +10,7 @@ Built with React (Vite) + Node.js + MongoDB + Socket.io, this system ensures eff
 Traditional team collaboration suffers from:
 
 - Lack of real time updates
-
 - Poor task visibility
-
 - Inefficient communication
 
 This project solves these issues by providing a real time, centralized collaboration platform.
@@ -22,31 +20,26 @@ This project solves these issues by providing a real time, centralized collabora
 1. Authentication & Security
 
 - JWT based authentication
-
 - Secure API routes using middleware
 
 2. Project Management
 
 - Create & manage projects
-
 - Add multiple team members
 
 3. Task Management
 
 - Assign tasks to users
-
 - Track task status (Pending / In Progress / Completed)
 
 4. Real-Time Collaboration
 
 - Live updates using Socket.io
-
 - Instant synchronization across users
-
+  
 5. Activity Tracking
 
 - Activity logs for project actions
-
 - Track user actions for transparency
 
 ## Tech Stack
@@ -54,17 +47,13 @@ This project solves these issues by providing a real time, centralized collabora
 ### Frontend
 
 - React.js (Vite)
-
 - Javascript
-
 - HTML, CSS, JavaScript
 
 ### Backend
 
 - Node.js
-
 - Express.js
-
 - Socket.io
 
 ### Database
@@ -74,9 +63,7 @@ This project solves these issues by providing a real time, centralized collabora
 ### Other Tools
 
 - JWT Authentication
-
 - Git & GitHub
-
 - Vercel (Frontend Deployment)
 
 ## Project Structure
@@ -142,14 +129,18 @@ cd Collaborative-Project-Management-System
 2️. Setup Backend
 ```
 cd server
+
 npm install
+
 npm start
 ```
 
 3️. Setup Frontend
 ```
 cd client
+
 npm install
+
 npm run dev
 ```
 
@@ -172,13 +163,9 @@ VITE_SOCKET_URL=http://localhost:5000
 ## How It Works
 
 - User signs up / logs in (JWT authentication)
-
 - Creates or joins a project
-
 - Assigns tasks to team members
-
 - Updates are broadcast in real time via Socket.io
-
 - Activities are logged for tracking
 
 ## Deployment
@@ -190,25 +177,17 @@ Backend → Can be deployed on Railway
 ## Future Improvements
 
 - Real-time notifications system
-
 - Mobile responsive UI
-
 - Analytics dashboard for project insights
-
 - Role based access control (Admin / Member)
-
 - AI based task recommendations
 
 ## Key Learnings
 
 - Built a scalable real-time full stack system
-
 - Implemented JWT authentication & secure APIs
-
 - Integrated Socket.io for live collaboration
-
 - Designed modular backend architecture (MVC pattern)
-
 - Deployed frontend using Vercel
 
 ## Contact
